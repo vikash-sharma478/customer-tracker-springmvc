@@ -1,0 +1,29 @@
+package com.vikash.crm.dao;
+
+import com.vikash.crm.entity.Customer;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.query.Query;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+import java.util.List;
+
+/**
+ * CustomerDAOImpl - Implements data access operations for Customer entities.
+ * Author: Vikash Kumar
+ */
+@Repository
+public class CustomerDAOImpl implements CustomerDAO {
+
+    private SessionFactory sessionFactory;
+
+    @Autowired
+    public void setSessionFactory(SessionFactory sessionFactory) {
+        this.sessionFactory = sessionFactory;
+    }
+
+    @Override
+    public void addCustomer(Customer customer) {
+        Session session = sessionFactory.getCurrentSession();
+        session.saveOrUpdate(customer);
