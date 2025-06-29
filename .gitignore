@@ -1,1 +1,19 @@
+# Maven build directory
+/target/
+
+# IntelliJ IDEA project files
+.idea/
+*.iml
+
+# Eclipse project files
+.classpath
+.project
+.settings/
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
 
