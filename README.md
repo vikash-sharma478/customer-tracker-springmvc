@@ -144,6 +144,6 @@ This project is licensed under the MIT License — you are free to use, copy, mo
 See the LICENSE file for full license details.
 
 # 📬 Contact
-# Vikash Sharma
-# 📧 Email: ipsvikash478@gmail.com
-# 🔗 LinkedIn: https://www.linkedin.com/in/vikash-sharma-284191230/
+ Vikash Sharma
+ 📧 Email: ipsvikash478@gmail.com
+ 🔗 LinkedIn: https://www.linkedin.com/in/vikash-sharma-284191230/
